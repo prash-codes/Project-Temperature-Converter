@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    
+}
+
+.container1 {
+    height: auto;    
+    background-position: center; 
+    
+}
+.container1:hover {
+    background-color:rgba(216, 153, 81, 0.506);
+}
+
+.container2 {
+    height: auto;
+    width: auto;
+    background-image: url('images/bodybackground.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.container3 {
+    padding-top: 5%;
+
+}
+
+h1 {
+    font-size: 33px;
+    color: #ffffff;
+    transition: font-size 0.3s, color 0.3s;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+h1:hover {
+    font-size: 35px; 
+    color: #fdfdfd86; 
+    font-weight: bold; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    
+    width: 500px;
+    margin:  auto;
+    padding: 20px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px rgba(235, 157, 54, 0.792);
+    background-color: rgba(0, 0, 0, 0.384);
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+input[type="text"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #ffffff;
+    
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #fcfcfc;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 30px;
+    border: 2px solid #000000;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 12vw;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0000008e;
+    font-size: 17px;
+    margin: center;
+}
+#result {
+    margin-top: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    font-size: larger;
+    
+}
+
+footer{
+    background-color: rgba(19, 18, 19, 0.384);
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+  }
+footer:hover {
+    background-color: rgba(19, 18, 19, 0.384);
+}
+
+
